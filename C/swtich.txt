@@ -1,0 +1,12 @@
+Uma alternativa simples a if e else
+
+switch(expressão constante){ ---- serve apenas para leitura
+
+  case constante 1:
+  intruções;
+  break;
+  case constante 2;
+  intruções;
+  break; ----- parar 
+}
+

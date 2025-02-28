@@ -1,0 +1,16 @@
+podemos conbinar oo else um outro if
+
+assim teremos 
+
+if(expressão de teste){
+
+}
+
+else if (expressão de teste){   -----> usado quando tem mais de uma possibilidade
+
+
+}
+
+else (expressão de teste ){  -------> 
+
+}
