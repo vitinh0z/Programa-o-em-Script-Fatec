@@ -15,13 +15,13 @@ int main(){
   if (media >= 6 && freq >= 75){
     printf("ALuno aprovado. Sua média foi: ", media);
 
-  };
+  }
   else if (media>= 4 && media < 6 && freq >= 75){
     printf("Aluno de Exame. Sua média foi ", media);
-  };
+  }
 
   else {
-    printf ("Aluno reprovado ")
+    printf ("Aluno reprovado ");
 
-  };
-};
+  }
+}
