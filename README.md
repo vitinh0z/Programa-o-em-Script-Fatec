@@ -28,12 +28,3 @@ node index.js
 
 
 ---
-
-### Como adicionar ao seu repositório:
-1. **Salve esse conteúdo como `README.md`** no diretório principal do repositório.  
-2. **Suba para o GitHub** com os comandos:  
-
-```bash
-git add README.md
-git commit -m "Adicionando README estilizado"
-git push origin main  # Ou outro nome da branch principal
