@@ -2,7 +2,9 @@
 
 int main(){
   float salario, salarioBonus;
-  int pontos, bonus=0;
+  int pontos, funcionario = 20, x = 0, bonus;
+
+  for (x = 0; x < funcionario; x++){
   
 
   printf("DIgite o Salário do Funcionario:R$ ");
@@ -15,7 +17,7 @@ int main(){
   if (pontos >=1000 ){
   bonus = 500;
   salarioBonus = salario + bonus;
-  printf("O salario do funcionario, mais o bonus é de:  %.2f\n", salarioBonus);
+  printf("O salario do funcionario, mais o bonus é dse:  %.2f\n", salarioBonus);
   }
   else if (pontos >=500 && pontos <=999)
   {
@@ -40,7 +42,9 @@ int main(){
   
   else{
     printf("Valor Inexistente");
-  }
 
 }
 
+}
+
+}

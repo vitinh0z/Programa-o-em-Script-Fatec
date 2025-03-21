@@ -5,6 +5,7 @@ laço while
 while (enquanto) (expressão de teste){
     intruções
 }
+
 EXEMPLO:
 
 main(){
