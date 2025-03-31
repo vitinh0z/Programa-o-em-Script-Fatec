@@ -3,6 +3,7 @@
 int main(){
   float salario, salarioBonus;
   int pontos, bonus=0;
+  
 
   printf("DIgite o Salário do Funcionario:R$ ");
   scanf("%f", &salario);

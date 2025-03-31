@@ -1,0 +1,34 @@
+Linguagem C usa tres tipos de laços:
+
+laço while
+
+while (enquanto) (expressão de teste){
+    intruções
+}
+
+EXEMPLO:
+
+main(){
+    int x = 0 ----> contador | variavel que realiza a contagem
+
+    while (x<10){
+        printf("x = %d\n", x);
+        x ++;
+    }
+}
+
+estrutura de controle
+
+int x = 0;
+int acomulador = 0
+while(x<10)
+{
+    acomulador = acomulador + x;
+    printf("x: %d total: %d\n", x, acomulador);
+    x++
+}
+se a expressão for verdadeira, ira repetir senão codigo termina
+
+laço do-while:
+
+laço for: 
