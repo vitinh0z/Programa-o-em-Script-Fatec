@@ -1,29 +1,30 @@
-let menu = prompt("Digite o número da operação desejada: \n '+' - Soma \n '-' - Subtração \n '*' - Multiplicação \n / '-' Divisão \n '5' - Sair");
+let menu = prompt("Digite o número da operação desejada: \n '+' - Soma \n '-' - Subtração \n '*' - Multiplicação \n / '-' Divisão \n '5' - Sair \n Opção: ");
 let num1 = Number(prompt("Digite o primeiro número: "));
 let num2 = Number(prompt("Digite o Segundo número: "))
-
-switch (prompt){
+let retorno""
+switch (menu){
 
     case '+':
-        console.log(`A soma de ${num} + ${num2} é igual a ${num1 + num2}`)
+        console.log(`\nA soma de ${num1} + ${num2} é igual a ${num1 + num2}\n `)
     break;
 
     case '-':
-        console.log(`A subtração de ${num1} - ${num2} é igual a ${num1 - num2}`)
+        console.log(`\nA subtração de ${num1} - ${num2} é igual a ${num1 - num2} \n`)
     break;
 
     case '*':
-        console.log(`A multipliçação de ${num1} * ${num2} é igual a ${num1 * num2}`)
+        console.log(`\nA multipliçação de ${num1} * ${num2} é igual a ${num1 * num2} \n`)
     break;
 
     case '/':
-        console.log(`A divisão de ${num1} / ${num2} é igual a ${num1 / num2}`)
-    break;
-
-    case '5':
-        console.log('Saindo...')
+        console.log(`\nA divisão de ${num1} / ${num2} é igual a ${num1 / num2}\n `)
     break;
 
     default:
         console.log('Operação inválida')   
-}
+}  
+ if (retorno === '2') {
+        console.log('Saindo...');
+        break;
+    }
+ while (true);
